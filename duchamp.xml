@@ -3,7 +3,8 @@
     <!--Remotes-->
     <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-22.1" />
     <remote name="duchamp"        fetch="https://github.com/MAG-45"          revision="lineage-22.1" />
-    <remote name="duchamp-lfs"    fetch="https://gitea.com/MAG-45"              revision="lineage-22.1"/>	    
+    <remote name="duchamp-lfs"    fetch="https://gitea.com/MAG-45"              revision="lineage-22.1"/>
+    <remote name="duchamp-zennin" fetch="https://github.com/xiaomi-mt6897-duchamp"/>	
     <remote name="micode"         fetch="https://github.com/MiCode"             revision="bsp-duchamp-u-oss"/>
     <!--Devices Trees-->
     <project name="device_xiaomi_duchamp"           path="device/xiaomi/duchamp"       remote="duchamp" />
@@ -14,8 +15,7 @@
     <project name="vendor_xiaomi_duchamp"       path="vendor/xiaomi/duchamp"       remote="duchamp-lfs" />
 
     <!--Kernel Tree-->
-    <project name="Xiaomi_Kernel_OpenSource"            path="kernel/xiaomi/mt6897"        remote="micode" />
-
+    <project name="kernel_xiaomi_mt6897" path="kernel/xiaomi/mt6897"		remote="duchamp-zennin" revision="fifteen"/>
     <!--Hardware dependencies-->
     <project name="hardware_xiaomi"             path="hardware/xiaomi"             remote="duchamp" />
     <project name="hardware_mediatek"           path="hardware/mediatek"                remote="duchamp"/>
