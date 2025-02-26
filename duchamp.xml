@@ -19,7 +19,6 @@
     <project name="hardware_xiaomi"             path="hardware/xiaomi"             remote="duchamp" revision="fifteen" />
     <project name="hardware_mediatek"           path="hardware/mediatek"                remote="duchamp" revision="fifteen"/>
     <project name="hardware_lineage_compat"     path="hardware/lineage/compat"          remote="duchamp"/>
-    <!-- Softaware dependencies -->
-    <project name="packages_apps_ColumbusService" path="packages/apps/ColumbusService" remote="duchamp" revision="fifteen"/>
+
 </manifest>
 
