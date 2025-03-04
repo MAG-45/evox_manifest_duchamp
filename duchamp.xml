@@ -3,6 +3,7 @@
     <!--Remotes-->
     <remote name="duchamp"        fetch="https://github.com/MAG-45"          revision="lineage-22.1" />
     <remote name="duchamp-lfs"    fetch="https://gitea.com/MAG-45"              revision="lineage-22.1"/>
+    <remote name="duchamp-patches" fetch="https://github.com/snapboss"      revision="lineage-22.1"/>
 
     <!--Devices Trees-->
     <project name="device_xiaomi_duchamp"           path="device/xiaomi/duchamp"       remote="duchamp" revision="vic"/>
@@ -14,10 +15,13 @@
 
     <!--Kernel Tree-->
     <project name="kernel_xiaomi_mt6897" path="kernel/xiaomi/mt6897"		remote="duchamp" revision="fifteen"/>
+
     <!--Hardware dependencies-->
     <project name="hardware_xiaomi"             path="hardware/xiaomi"             remote="duchamp" revision="fifteen" />
     <project name="hardware_mediatek"           path="hardware/mediatek"                remote="duchamp" revision="fifteen"/>
     <project name="hardware_lineage_compat"     path="hardware/lineage/compat"          remote="duchamp"/>
-
+    <project name="hardware_dolby"              path="hardware/dolby"               remote="duchamp-patches" revision="fifteen"/>
+    <!-- External dependecies -->
+    <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="duchamp-patches"/>
 </manifest>
 
