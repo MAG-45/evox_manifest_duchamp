@@ -5,18 +5,18 @@
     <remote name="duchamp-lfs"    fetch="https://gitea.com/MAG-45"              revision="lineage-22.1"/>
 
     <!--Devices Trees-->
-    <project name="device_xiaomi_duchamp"           path="device/xiaomi/duchamp"       remote="duchamp" revision="vic"/>
+    <project name="device_xiaomi_duchamp"           path="device/xiaomi/duchamp"       remote="duchamp" revision="vic-testing"/>
     <project name="device_xiaomi_duchamp-kernel" path="device/xiaomi/duchamp-kernel" remote="duchamp" revision="lineage-21"/>
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="duchamp" />
 
     <!--Vendors Tree-->
-    <project name="vendor_xiaomi_duchamp"       path="vendor/xiaomi/duchamp"       remote="duchamp-lfs" revision="fifteen"/>
+    <project name="vendor_xiaomi_duchamp"       path="vendor/xiaomi/duchamp"       remote="duchamp-lfs" revision="vic-testing"/>
 
     <!--Kernel Tree-->
     <project name="kernel_xiaomi_mt6897" path="kernel/xiaomi/mt6897"		remote="duchamp" revision="fifteen"/>
 
     <!--Hardware dependencies-->
-    <project name="hardware_xiaomi"             path="hardware/xiaomi"             remote="duchamp" revision="fifteen" />
+    <project name="hardware_xiaomi"             path="hardware/xiaomi"             remote="duchamp" revision="vic-testing" />
     <project name="hardware_mediatek"           path="hardware/mediatek"                remote="duchamp" revision="fifteen"/>
     <project name="hardware_lineage_compat"     path="hardware/lineage/compat"          remote="duchamp"/>
     <project name="hardware_dolby"              path="hardware/dolby"               remote="duchamp" revision="fifteen"/>
