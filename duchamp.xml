@@ -10,7 +10,7 @@
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="duchamp" />
 
     <!--Vendors Tree-->
-
+    <project name="vendor_xiaomi_duchamp" path="vendor/xiaomi/duchamp" remote="duchamp-lfs"/>
     <!--Kernel Tree-->
     <project name="kernel_xiaomi_mt6897" path="kernel/xiaomi/mt6897"		remote="duchamp" revision="fifteen"/>
 
